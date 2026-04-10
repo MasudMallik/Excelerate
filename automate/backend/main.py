@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder,OrdinalEncoder,StandardScaler
 import matplotlib.pyplot as plt
-from backend.Regression_models import linear_regression_model,decisiontree_regression,ridge_regression,xgboost_regression,lasso_regression,svm_regression,random_forest_regression
+from Regression_models import linear_regression_model,decisiontree_regression,ridge_regression,xgboost_regression,lasso_regression,svm_regression,random_forest_regression
 
 app=FastAPI(
     title="Excelerate",
